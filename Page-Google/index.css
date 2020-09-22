@@ -1,0 +1,186 @@
+body
+{
+	font-family: arial;
+	font-size: small;
+	overflow: hidden;
+}
+#toutheader
+{
+	border: none;
+	width: 300px;
+	height: 40px;
+	margin-left: 89%;
+	display: flex;
+	flex-direction: row;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+#gmail
+{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+#image
+{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#menugoogle
+{
+	width: 10%;
+	height: 17px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#boutton
+{
+	width: 80px;
+	height: 20px;
+	border: solid blue 1px;
+	text-align:center;
+	background: blue;
+	border-radius: 5px;
+}
+#flexhead
+{
+	display: flex;
+	flex-direction: row;
+}
+.padhead
+{
+	padding-left: 30px;
+}
+section
+{
+	border: none;
+	width: 100%;
+	height: 538px;
+	text-align: center;
+	font-size: 60px;
+	margin-top: 7%;
+}
+.blue
+{
+	color: blue;
+}
+.red
+{
+	color: red;
+}
+#yellow
+{
+	color: yellow;
+}
+#green
+{
+	color: green; 
+}
+h1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#barrerecherche
+{
+	border: solid #EFEFEF 1px;
+	border-radius: 25px;
+	width: 650px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	margin-left: 30%;
+	margin-top: -30px;
+}
+#barrerecherche:hover
+{
+	box-shadow: 10px 5px 5px #EFEFEF;
+}
+::-webkit-input-placeholder 
+{
+ text-align:center;
+}
+#flexsect
+{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+
+}
+#bouton1
+{
+	border: solid #EFEFEF 1px;
+	width: 10%;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: -30px;
+}
+#bouton1:hover
+{
+	border:solid black 1px;
+}
+#bouton2
+{
+	border: solid #EFEFEF 1px;
+	width: 10%;
+	height: 40px;
+	margin-left: 15px;
+	border-radius: 5px;
+	margin-top: -30px;
+}
+#bouton2:hover
+{
+	border:solid black 1px;
+}
+footer
+{
+	border: solid #EFEFEF 2px;
+	background: #EFEFEF;
+	width: 100%;
+	height: 90px;
+	position: absolute;
+	bottom: 0;
+}
+.row
+{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+}
+#row
+{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+#padding2
+{
+	display: flex;
+	justify-content: flex-end;
+}
+.pad1
+{
+	margin-left: 30px;
+}
+.pad2
+{
+	margin-right: 30px;
+}
+.padding
+{
+	margin-left: 30px;
+}
+ul
+{
+	list-style-type: none;
+}
